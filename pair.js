@@ -73,11 +73,11 @@ router.get('/', async (req, res) => {
 ❻ || YouTube = https://www.youtube.com/@Butterfly_18_familly
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ©2024-2099 ©INCONNU BOY_`
- await Pair_Code_By_Malvin_King.sendMessage(Pair_Code_By_inconnu_boy.user.id,{text:MALVIN_KING_TEXT},{quoted:session})
+ await Pair_Code_By_©inconnu_boy.sendMessage(Pair_Code_By_inconnu_boy.user.id,{text:MALVIN_KING_TEXT},{quoted:session})
  
 
         await delay(100);
-        await Pair_Code_By_Malvin_King.ws.close();
+        await Pair_Code_By_inconnu_boy.ws.close();
         return await removeFile('./temp/'+id);
             } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10000);
