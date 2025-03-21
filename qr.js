@@ -76,12 +76,12 @@ router.get('/', async (req, res) => {
 ❻ || YouTube = https://www.youtube.com/@Buttetfly_18_familly 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ©2024-2099 ©INCONNU BOY_`
-	 await Qr_Code_By_©inconnu_boy.sendMessage(Qr_Code_By_inconnu_boy.user.id,{text:MALVIN_KING_TEXT},{quoted:session})
+	 await Qr_Code_By_malvin_king.sendMessage(Qr_Code_By_malvin_king.user.id,{text:MALVIN_KING_TEXT},{quoted:session})
 
 
 
 					await delay(100);
-					await Qr_Code_By_inconnu_boy.ws.close();
+					await Qr_Code_By_malving_king.ws.close();
 					return await removeFile("temp/" + id);
 				} else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
 					await delay(10000);
